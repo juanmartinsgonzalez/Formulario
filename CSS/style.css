@@ -1,0 +1,53 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/wp7528738.jpg") ;
+    margin: 20px;
+    /* Tipo de Letra */ 
+    font-family: sans-serif
+}
+#form{
+    padding: 30px;
+    /* Cor do Fundo */ 
+    background-color: rgb(131, 78, 43);
+    border-radius: 5px;
+    max-width: 400px;
+    /* Ajuste automatico da Margin*/ 
+    margin: 20px auto;
+}
+
+#form h1{
+    /*  Cor do H1 do Form*/ 
+    color: black;
+}
+
+#form label{
+    color: black;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    /* Cor do Fundo */ 
+    background: white;
+    /* Bordas*/ 
+    border: none;
+    /* Cor da Borda e Size */ 
+    border: 1px black;
+    /* Tamanho Pra Baixo */ 
+    margin-bottom: 30px;
+    color: blanchedalmond;
+    outline: none;
+    padding: 10px;
+}
+/* Centraliza texto do Exemplo do Form */
+::placeholder {
+    text-align: center;
+}
+
+/* Tamanho do Botão*/
+.botão{
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: white;
+}

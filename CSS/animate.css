@@ -1,0 +1,16 @@
+/* Propriedades da animação*/
+.slide-form{
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+/* Ponto de onde cai/movimenta a Imagem animada*/
+@keyframes slidein{
+    from{
+        margin-top: -200%; 
+    }
+
+    to{
+        margin-top: 20% auto;
+    }
+}
